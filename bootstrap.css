@@ -1082,12 +1082,11 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "SimSun", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: ;
-  background-color: #e7edb2;
-  background-image: 0.jpeg
+  color: #000;
+  background-color: #DE2910;
 }
 input,
 button,
@@ -1098,7 +1097,6 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
   text-decoration: none;
 }
 a:hover,
@@ -3111,19 +3109,19 @@ fieldset[disabled] .btn-default.focus {
   border-color: #ccc;
 }
 .btn-default .badge {
-  color: #fff;
-  background-color: #333;
+  color: #000;
+  background-color: #ffffff;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: #000;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-  color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
+  color: #000;
+  background-color: #646464;
+  border-color: #646464;
 }
 .btn-primary:hover {
   color: #fff;
@@ -4167,7 +4165,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -4495,7 +4493,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #f8f8f8;
-  border-color: #e7e7e7;
+
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4509,7 +4507,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #000;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4529,15 +4527,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #ddd;
+  border-color: #600b0b;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #600b0b;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
-}
+  background-color: #888#d72c2c
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #e7e7e7;
